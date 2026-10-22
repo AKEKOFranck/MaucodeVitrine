@@ -1,0 +1,6 @@
+.main { min-height: 100vh; }
+.gallery { max-width: 1180px; margin: 0 auto; padding: 72px 20px 40px; }
+.galleryHead { display: flex; flex-direction: column; gap: 20px; margin-bottom: 36px; }
+.galleryHead h2 { font-size: clamp(1.9rem, 4vw, 2.8rem); max-width: 18ch; }
+.grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); gap: 26px; }
+.empty { padding: 60px 20px; text-align: center; color: var(--ink-soft); background: var(--white); border-radius: var(--radius-md); }

@@ -1,0 +1,122 @@
+{
+  "config": {
+    "name": "Maucode",
+    "title": "Des sites web qui donnent envie de cliquer",
+    "subtitle": "Voici nos réalisations : des projets livrés à de vrais clients et des concepts créés pour montrer ce dont nous sommes capables.",
+    "whatsapp": "2250507189082"
+  },
+  "siteTypes": {
+    "client": { "label": "Projet client", "hint": "Réalisé pour un vrai client", "tone": "client" },
+    "fictif": { "label": "Concept fictif", "hint": "Projet de démonstration", "tone": "fictif" }
+  },
+  "projectTypes": [
+    "Site vitrine",
+    "Boutique en ligne",
+    "Site de restaurant",
+    "Site d'association / ONG",
+    "Refonte d'un site existant",
+    "Autre"
+  ],
+  "sites": [
+    {
+      "id": "roba-shop",
+      "title": "Roba Shop",
+      "category": "E-commerce",
+      "type": "client",
+      "icon": "FaShoppingBag",
+      "description": "Boutique en ligne avec panier et commande simple.",
+      "images": ["/sites/roba-shop.png"],
+      "url": "https://roba-shop.vercel.app/"
+    },
+    {
+      "id": "all-for-beauty",
+      "title": "All For Beauty",
+      "category": "Beauté",
+      "type": "client",
+      "icon": "FaSpa",
+      "description": "Site d'un institut de beauté, élégant et rassurant.",
+      "images": ["/sites/all-for-beauty.png"],
+      "url": "https://all-for-beauty.vercel.app/"
+    },
+    {
+      "id": "chemoa-hotel",
+      "title": "Chemoa Hôtel",
+      "category": "Hôtel",
+      "type": "client",
+      "icon": "FaHotel",
+      "description": "Présentation des chambres et prise de contact rapide.",
+      "images": ["/sites/chemoa-hotel.png"],
+      "url": "https://chemoa-hotel.vercel.app/"
+    },
+    {
+      "id": "ong-ensemble",
+      "title": "ONG Ensemble",
+      "category": "Association",
+      "type": "client",
+      "icon": "FaHandsHelping",
+      "description": "Site d'une ONG : missions, actions et appel au soutien.",
+      "images": ["/sites/ong-ensemble.png"],
+      "url": "https://ong-ensemble.vercel.app/"
+    },
+    {
+      "id": "em2-renov",
+      "title": "EM2 Rénov",
+      "category": "Bâtiment",
+      "type": "client",
+      "icon": "FaTools",
+      "description": "Vitrine d'une entreprise de rénovation et de ses chantiers.",
+      "images": ["/sites/em2-renov.png"],
+      "url": "https://em-2-renov.vercel.app/"
+    },
+    {
+      "id": "coffee-shop",
+      "title": "Coffee Shop",
+      "category": "Restaurant",
+      "type": "fictif",
+      "icon": "FaCoffee",
+      "description": "Concept de café chaleureux avec carte et ambiance.",
+      "images": ["/sites/coffee-shop.png"],
+      "url": "https://coffee-shop-nine-ecru.vercel.app/"
+    },
+    {
+      "id": "hair-we",
+      "title": "Hair We",
+      "category": "Beauté",
+      "type": "fictif",
+      "icon": "FaCut",
+      "description": "Concept de salon de coiffure moderne.",
+      "images": ["/sites/hair-we.png"],
+      "url": "https://hair-we.vercel.app/"
+    },
+    {
+      "id": "web-dress",
+      "title": "Web Dress",
+      "category": "E-commerce",
+      "type": "fictif",
+      "icon": "FaTshirt",
+      "description": "Concept de boutique de mode en ligne.",
+      "images": ["/sites/web-dress.png"],
+      "url": "https://web-dress.vercel.app/"
+    },
+    {
+      "id": "resto-web",
+      "title": "Resto Web",
+      "category": "Restaurant",
+      "type": "fictif",
+      "icon": "FaUtensils",
+      "description": "Concept de restaurant avec menu et réservation.",
+      "images": ["/sites/resto-web.png"],
+      "url": "https://resto-web-two.vercel.app/"
+    },
+    {
+      "id": "foodtruck",
+      "title": "FoodTruck",
+      "category": "Restaurant",
+      "type": "fictif",
+      "icon": "FaTruck",
+      "description": "Concept de food truck : menu, lieux et commande.",
+      "images": ["/sites/foodtruck.png"],
+      "url": "https://foodtruck-lac.vercel.app/"
+    }
+  ]
+}

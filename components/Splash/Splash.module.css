@@ -1,0 +1,18 @@
+.splash {
+  position: fixed; inset: 0; z-index: 100;
+  display: grid; place-items: center;
+  background: radial-gradient(circle at 50% 40%, #272377 0%, #15143a 70%);
+  color: #fff;
+  transition: transform 0.7s cubic-bezier(0.76, 0, 0.24, 1);
+}
+.leave { transform: translateY(-100%); }
+.center { display: grid; justify-items: center; gap: 22px; }
+.logo { animation: pop 0.9s cubic-bezier(0.34, 1.56, 0.64, 1) both; }
+.word { font-family: var(--font-display); font-size: 2rem; font-weight: 700; display: flex; }
+.word span { opacity: 0; transform: translateY(14px); animation: letter 0.5s ease forwards; }
+.bar { width: 140px; height: 3px; border-radius: 3px; background: rgba(255, 255, 255, 0.15); overflow: hidden; }
+.bar span { display: block; height: 100%; width: 100%; background: #fff; transform-origin: left; animation: load 2.2s ease-in-out forwards; }
+
+@keyframes pop { from { opacity: 0; transform: scale(0.4) rotate(-18deg); } to { opacity: 1; transform: scale(1) rotate(0); } }
+@keyframes letter { to { opacity: 1; transform: none; } }
+@keyframes load { from { transform: scaleX(0); } to { transform: scaleX(1); } }

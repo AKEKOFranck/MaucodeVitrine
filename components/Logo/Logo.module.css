@@ -1,0 +1,17 @@
+.wrap { display: inline-flex; align-items: center; gap: 12px; }
+
+.mark {
+  display: block;
+  flex: none;
+}
+
+.mark img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  display: block;
+  filter: drop-shadow(0 10px 24px rgba(61, 90, 254, 0.45));
+}
+
+.name { font-family: var(--font-display); font-weight: 700; font-size: 1.3rem; }
+.light .name { color: #fff; }

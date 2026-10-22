@@ -1,0 +1,2 @@
+.footer { display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 16px; padding: 28px 20px; background: var(--ink); color: #c9caf5; }
+.link { display: inline-flex; align-items: center; gap: 8px; font-weight: 700; color: #fff; }
