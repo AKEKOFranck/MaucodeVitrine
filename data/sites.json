@@ -117,6 +117,16 @@
       "description": "Concept de food truck : menu, lieux et commande.",
       "images": ["/sites/foodtruck.png"],
       "url": "https://foodtruck-lac.vercel.app/"
+    },
+     {
+      "id": "FlowFIt",
+      "title": "FlowFIt",
+      "category": "Site vitrine",
+      "type": "client",
+      "icon": "GiWeightLiftingUp",
+      "description": "Site de Présentation d'un coach sportif et de ses services.",
+      "images": ["/MarcialWeb.png"],
+      "url": "https://marcial-web.vercel.app/"
     }
   ]
 }
